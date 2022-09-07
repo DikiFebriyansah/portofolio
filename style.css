@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Mouse+Memoirs&family=Oleo+Script+Swash+Caps&family=Poppins:wght@300&display=swap');
+
+
+.hero{ 
+    background: url('lok.jpg');
+    background-size: 1999px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 2rem;
+}
+
+.topnav {
+    background-color: #dad486;
+    overflow: hidden;
+}
+  
+.topnav a {
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: #2d3021;
+}
+  
+.topnav a.active {
+    background-color: #8caa04;
+    color: white;
+}
+  
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+.text-box p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;    
+    padding-top: 1rem;
+}
+
+.hero{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;    
+    padding-top: 6rem;
+}
+
+.col p{  
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;    
+    padding-top: 1rem;
+}
+
+.tools{ 
+    padding-top: 6rem;
+    background-color: #fff;
+}
+
+.tools .icon-box {
+    padding: 20px 15px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.2);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 1;
+}
+  
+.tools .icon-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    transition: ease-in-out 0.3s;
+    z-index: -1;
+}
+  
+.tools .icon-box:hover::before {
+    background: #dad486;
+    height: 100%;
+    border-radius: 0px;
+}
+.tools .icon {
+    margin: 0 auto 30px auto;
+    padding-top: 15px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #acda86;
+    transition: all 0.3s ease-in-out;
+}
+  
+.tools .icon i {
+    font-size: 36px;
+    line-height: 1;
+    color: #fff;
+}
+  
+.tools .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+  
+.tools .title a {
+    color: #111;
+}
+  
+.tools .description {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+  
+.tools .icon-box:hover .title a,
+.tools .icon-box:hover .description {
+    color: #fff;
+}
+  
+.tools .icon-box:hover .icon {
+    background: #fff;
+}
+  
+.tools .icon-box:hover .icon i {
+    color: #b3da86;
+}
+  
+@media (max-width: 768px) {
+    .tools .icon-box::before {
+      bottom: 60%;
+    }
+}
+
+.portfolio{
+    padding-top: 5rem;
+}
+
+
+
+
+
+
+
+
+
